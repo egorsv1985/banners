@@ -1,0 +1,64 @@
+.tinder {
+   text-align: center;
+   color: white;
+
+   &__wrap {
+      background-color: #000;
+   }
+
+   &__content {
+      padding-top: 29px;
+      padding-bottom: 29px;
+      background: #000 url("./../images/flower.png") no-repeat top 125px right/193px 284px;
+   }
+
+   &__title {
+      margin-bottom: 13px;
+      font: 30px/1.2 "Roboto_Regular";
+   }
+
+   &__subtitle {
+      margin-bottom: 33px;
+      font: 28px/1.2 "Roboto_Light";
+   }
+
+   &__text {
+      max-width: 190px;
+      margin-bottom: 39px;
+      font: 24px/1.2 "Roboto_Regular";
+   }
+
+   &__subtext {
+      padding-left: 15px;
+      font: 26px/1.2 "Roboto_Regular";
+      text-align: left;
+   }
+
+
+   &__wrap-images {
+      padding-bottom: 18px;
+   }
+
+   &__necklace {
+      width: 334px;
+      height: 77px;
+   }
+
+   &__list {
+      display: flex;
+      justify-content: center;
+   }
+
+   &__item:nth-of-type(2) {
+      margin-right: 27px;
+   }
+
+   &__item:nth-of-type(3) {
+      margin-right: 15px;
+   }
+
+   &__icon {
+      width: 58px;
+      height: 58px;
+   }
+}

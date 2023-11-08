@@ -1,0 +1,33 @@
+.referral {
+   padding-bottom: 55px;
+   text-align: center;
+
+   &__title {
+      margin-bottom: 31px;
+      font: 24px/1.2 "Roboto_Medium";
+   }
+
+   &__price {
+      font: 24px/1.2 "Roboto_Regular";
+      margin-bottom: 9px;
+   }
+
+   &__text {
+      margin-bottom: 55px;
+      font: 24px/1.2 "Roboto_Regular";
+
+      &:last-of-type {
+         margin-bottom: 44px;
+      }
+   }
+
+   &__subtitle {
+      margin-bottom: 31px;
+      font: 24px/1.2 "Roboto_Medium";
+      color: var(--red);
+   }
+
+   &__button {
+      width: 233px;
+   }
+}

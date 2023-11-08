@@ -1,0 +1,54 @@
+.instruction {
+   padding-top: 42px;
+   text-align: center;
+
+   &__title {
+      margin-bottom: 45px;
+      font: 28px/1.25 "Roboto_Medium";
+      color: var(--red);
+   }
+
+   &__list {
+      display: grid;
+      grid-auto-rows: minmax(min-content, max-content);
+      row-gap: 40px;
+      margin-bottom: 40px;
+   }
+
+   &__item {
+      position: relative;
+      font: 28px/1.25 "Roboto_Regular";
+
+      &::before {
+         content: "";
+
+         position: absolute;
+         top: 0;
+         left: -5px;
+
+         width: 44px;
+         height: 25px;
+
+         background: url("./../images/icons/arrow.svg") no-repeat center center/100%;
+      }
+   }
+
+   &__text {
+      margin-bottom: 45px;
+      font: 28px/1.25 "Roboto_Regular";
+   }
+
+   &__text:nth-of-type(3) {
+      color: var(--red);
+   }
+
+   &__caption {
+      margin-bottom: 24px;
+      font: 18/1.2 "Roboto_Regular";
+   }
+
+   &__button {
+      display: inline-block;
+      margin-bottom: 53px;
+   }
+}

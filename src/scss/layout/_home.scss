@@ -1,0 +1,40 @@
+.home {
+   position: relative;
+   background-color: #000;
+   text-align: center;
+
+   &__title {
+      padding: 30px 0 10px;
+      font: 30px/1.3 "Roboto_Regular";
+      color: white;
+
+      &--position {
+         position: absolute;
+         top: 0;
+         left: 50%;
+         transform: translateX(-50%);
+      }
+   }
+
+   &__info {
+      padding-top: 42px;
+      padding-bottom: 5px;
+      background-color: white;
+   }
+
+   &__text {
+      margin-bottom: 30px;
+      font: 26px/1.2 "Roboto_Medium";
+   }
+
+   &__subTitle {
+      margin-bottom: 18px;
+      font: 28px/1.2 "Roboto_Medium";
+      color: var(--red);
+   }
+
+   &__button {
+      display: inline-block;
+      margin-bottom: 33px;
+   }
+}

@@ -1,0 +1,42 @@
+.tariffs {
+   padding-bottom: 55px;
+   text-align: center;
+
+   &__title {
+      margin-bottom: 17px;
+      font: 24px/1.2 "Roboto_Medium";
+      color: var(--red);
+   }
+
+   &__subtitle {
+      margin-bottom: 31px;
+      font: 24px/1.2 "Roboto_Medium";
+   }
+
+   &__list {
+      display: grid;
+      row-gap: 12px;
+      margin-bottom: 26px;
+
+      &--indent_top {
+         margin-top: 31px;
+      }
+   }
+
+   &__price {
+      font: 24px/1.2 "Roboto_Regular";
+   }
+
+   &__text {
+      font: 24px/1.2 "Roboto_Regular";
+      margin-bottom: 31px;
+
+      &:last-of-type {
+         margin-bottom: 0;
+      }
+   }
+
+   &__link {
+      font: 24px/1.2 "Roboto_Medium";
+   }
+}

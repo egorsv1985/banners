@@ -1,0 +1,45 @@
+.regulations {
+   padding-top: 45px;
+   padding-bottom: 55px;
+   text-align: center;
+
+   &__title {
+      margin-bottom: 17px;
+      font: 24px/1.2 "Roboto_Medium";
+      color: var(--red);
+   }
+
+   &__text {
+      margin-bottom: 27px;
+      font: 24px/1.2 "Roboto_Medium";
+   }
+
+   &__list {
+      display: grid;
+      margin: 0 auto 36px auto;
+      row-gap: 26px;
+      max-width: 314px;
+   }
+
+   &__item {
+      position: relative;
+      font: 20px/1.2 "Roboto_Regular";
+
+      &::before {
+         content: "";
+         position: absolute;
+         top: 5px;
+         left: -10px;
+
+         width: 22px;
+         height: 13px;
+
+         background: url('./../images/icons/arrow.svg') no-repeat center center/100%;
+
+      }
+   }
+
+   &__button {
+      width: 233px;
+   }
+}

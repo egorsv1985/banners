@@ -1,0 +1,84 @@
+.details {
+
+   &__wrap {
+      padding-top: 33px;
+      padding-bottom: 33px;
+
+      text-align: center;
+      color: white;
+
+      background-color: #000;
+   }
+
+   &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   &__button {
+      margin-bottom: 33px;
+   }
+
+   &__button:nth-of-type(2) {
+      margin-bottom: 54px;
+   }
+
+   &__title {
+      margin-bottom: 33px;
+      font: 24px/1.25 "Roboto_Regular";
+      text-transform: uppercase;
+   }
+
+   &__list {
+      display: grid;
+      grid-auto-rows: minmax(min-content, max-content);
+      row-gap: 50px;
+      margin-bottom: 50px;
+   }
+
+   &__item {
+      position: relative;
+      max-width: 200px;
+      font: 18px/1.2 "Roboto_Light";
+
+      &::before {
+         content: "";
+
+         position: absolute;
+         top: 0;
+         left: -50px;
+
+         width: 44px;
+         height: 25px;
+
+         background: url("./../images/icons/arrow.svg") no-repeat center center/100%;
+      }
+   }
+
+   &__text {
+      margin-bottom: 44px;
+      font: 24px/1.25 "Roboto_Regular";
+      text-transform: uppercase;
+   }
+
+   &__wrap-subtext {
+      background-color: #C4C4C4;
+   }
+
+   &__subtext {
+      margin: 0 auto;
+      padding: 18px 20px;
+
+      font: 18/1.2 "Roboto_Regular";
+   }
+
+   &__wrap-btn {
+      padding-top: 32px;
+
+      a {
+         display: inline-block;
+         margin-bottom: 0;
+      }
+   }
+}

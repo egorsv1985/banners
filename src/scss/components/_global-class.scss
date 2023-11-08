@@ -1,0 +1,23 @@
+.container {
+   max-width: 390px;
+   margin: 0 auto;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.button {
+   padding: 21px 29px;
+
+   font: 18px/1.2 "Roboto_Regular";
+   text-transform: uppercase;
+   color: white;
+
+   background-color: var(--red);
+   border-radius: 12px;
+   border: none;
+}
+
+.link {
+   position: relative;
+   border-bottom: 2px solid var(--red);
+}

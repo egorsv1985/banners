@@ -1,0 +1,43 @@
+.promotion {
+   padding-bottom: 75px;
+   text-align: center;
+
+   &__title {
+      margin-bottom: 31px;
+      font: 24px/1.2 "Roboto_Medium";
+      color: var(--red);
+   }
+
+   &__text {
+      margin: 0 auto 28px auto;
+      font: 20px/1.2 "Roboto_Regular";
+      text-transform: lowercase;
+
+      &--size {
+         max-width: 250px;
+      }
+
+      &:nth-of-type(2) {
+         color: var(--red);
+         margin-bottom: 28px;
+         text-transform: uppercase;
+      }
+   }
+
+   &__subtext {
+      margin-bottom: 44px;
+      font: 24px/1.2 "Roboto_Regular";
+      text-transform: uppercase;
+   }
+
+   &__button {
+      margin-bottom: 59px;
+      padding: 25px 26px;
+   }
+
+   &__link {
+      display: inline-block;
+      font: 24px/1.2 "Roboto_Medium";
+      color: var(--red);
+   }
+}
